@@ -11,7 +11,7 @@ export default function VideoPreview() {
             {/* Imagem enquanto o vídeo não iniciou */}
             {!videoStarted && (
                 <Image
-                    src="/balatro-1788093455462.png"
+                    src="./balatro-1788093455462.png"
                     alt="Preview"
                     fill
                     priority
@@ -22,7 +22,7 @@ export default function VideoPreview() {
 
             {/* Vídeo */}
             <video
-                src="/balatro-1788093449179.webm"
+                src="./balatro-1788093449179.webm"
                 autoPlay
                 loop
                 muted

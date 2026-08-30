@@ -11,7 +11,7 @@ export default function VideoPreview() {
             {/* Imagem enquanto o vídeo não iniciou */}
             {!videoStarted && (
                 <Image
-                    src="/beams-1788078445535.png"
+                    src="./beams-1788078445535.png"
                     alt="Preview"
                     fill
                     priority
@@ -22,7 +22,7 @@ export default function VideoPreview() {
 
             {/* Vídeo */}
             <video
-                src="/beams-1788078463271.webm"
+                src="./beams-1788078463271.webm"
                 autoPlay
                 loop
                 muted
