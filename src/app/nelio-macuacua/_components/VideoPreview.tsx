@@ -11,7 +11,7 @@ export default function VideoPreview() {
             {/* Imagem enquanto o vídeo não iniciou */}
             {!videoStarted && (
                 <Image
-                    src="./letter-glitch-1788078568665.png"
+                    src="/letter-glitch-1788078568665.png"
                     alt="Preview"
                     fill
                     priority
@@ -22,7 +22,7 @@ export default function VideoPreview() {
 
             {/* Vídeo */}
             <video
-                src="./letter-glitch-1787995840126.webm"
+                src="/letter-glitch-1787995840126.webm"
                 autoPlay
                 loop
                 muted
