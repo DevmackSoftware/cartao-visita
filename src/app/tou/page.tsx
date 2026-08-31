@@ -4,7 +4,7 @@ export default function TouPage() {
             <div className="border max-w-[375px] w-full p-4 relative md:h-auto">
                 <div>
                     <div className="border aspect-video rounded-r-full">
-
+                        asdsad
                     </div>
                 </div>
                 <div>
