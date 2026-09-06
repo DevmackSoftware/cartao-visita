@@ -1,10 +1,8 @@
 import LogoLoop from "@/components/LoopLogo";
 import SaveContactButton from "@/components/SaveContactButton";
-import TextType from "@/components/TextType";
-import { BiPhoneCall, BiSolidContact } from "react-icons/bi";
+import { BiPhoneCall, } from "react-icons/bi";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { FaFacebookSquare, FaNodeJs, FaReact, FaTiktok } from "react-icons/fa";
-import { FaEarthAfrica, FaEarthAsia } from "react-icons/fa6";
 import { FiFigma } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
@@ -23,12 +21,12 @@ export default function NelioMacuacuaPage() {
     ];
 
     return (
-        <main className="flex justify-center items-center min-h-screen w-full">
-            <div className="max-w-[375px] w-full p-4 relative md:h-auto">
+        <main className="flex justify-center items-center min-h-screen w-full bg-black text-white">
+            <div className="max-w-93.75 w-full p-4 relative md:h-auto ">
                 <VideoPreview />
-                <div className="border border-zinc-400/50 bg-zinc-900/30 backdrop-blur-sm p-4 h-full shadow-2xl shadow-black space-y-4">
+                <div data-aos="fade-up" className="border border-zinc-400/50 bg-zinc-900/30 backdrop-blur-sm p-4 h-full shadow-2xl shadow-black space-y-4">
                     <div className="space-y-4">
-                        <div className="size-30 border relative border-zinc-400/50 mx-auto shadow-2xl shadow-black space-y-4">
+                        <div data-aos="zoom-in" data-aos-delay='800' className="size-30 border relative border-zinc-400/50 mx-auto shadow-2xl shadow-black space-y-4">
                             <img
                                 className="object-cover"
                                 src="./profile.JPG"
@@ -36,28 +34,13 @@ export default function NelioMacuacuaPage() {
                             />
                         </div>
                         <div className="text-center">
-                            <h1 className="text-2xl font-bold">Nélio Macuácua</h1>
-                            <TextType
-                                text={[
-                                    "Desenvolvedor Web",
-                                    "Desenvolvedor Mobile",
-                                    "Desenvolvedor Desktop",
-                                    "Desenvolvedor Full Stack",
-                                    "Engenheiro de Software",
-                                    "Criador de Soluções Digitais",
-                                ]}
-                                typingSpeed={75}
-                                pauseDuration={1500}
-                                showCursor
-                                cursorCharacter="|"
-                                deletingSpeed={50}
-                                cursorBlinkDuration={0.5}
-                            />
+                            <h1 data-aos="zoom-out" data-aos-delay='800' className="text-2xl font-bold">Nélio Macuácua</h1>
+                            <span data-aos="zoom-out" data-aos-delay='800' className="font-medium">Full-Stack Software Developer</span>
                         </div>
                     </div>
                     <div className="space-y-4">
                         <div className="border *:p-4 *:w-full divide-y divide-black border-black shadow-2xl shadow-black">
-                            <a href="tel:+258833067953" className="flex justify-between items-center gap-4">
+                            <a data-aos="zoom-in-down" data-aos-delay='800' href="tel:+258833067953" className="flex justify-between items-center gap-4">
                                 <BiPhoneCall size={30} className="fill-zinc-400" />
                                 <div className="flex flex-col text-xs text-end">
                                     <span>
@@ -67,7 +50,7 @@ export default function NelioMacuacuaPage() {
                                 </div>
                             </a>
                             <SaveContactButton />
-                            <a href="mailto:nelio.macuacua@devmack.com" className="flex justify-between items-center gap-4">
+                            <a data-aos="zoom-in-down" data-aos-delay='900' href="mailto:nelio.macuacua@devmack.com" className="flex justify-between items-center gap-4">
                                 <MdEmail size={30} className="fill-zinc-400" />
                                 <div className="flex flex-col text-xs text-end">
                                     <span>
@@ -81,29 +64,29 @@ export default function NelioMacuacuaPage() {
                             <div className="space-y-2">
                                 <h2 className="font-medium">Conecte-se</h2>
                                 <div className="divide-x divide-y shadow-xl shadow-black/40 border grid grid-cols-2 divide-black border-black *:p-4">
-                                    <a href="https://wa.me/258833067953" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
+                                    <a data-aos="flip-left" href="https://wa.me/258833067953" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
                                         <BsWhatsapp size={30} className="fill-green-500" />
                                         <span>Whatsapp</span>
                                     </a>
-                                    <a href="https://www.instagram.com/devmack.software?igsi=MzZ3bmhlZm1yYjd2%2F" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
+                                    <a data-aos="flip-right" href="https://www.instagram.com/devmack.software?igsi=MzZ3bmhlZm1yYjd2%2F" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
                                         <BsInstagram size={30} className="fill-orange-500" />
                                         <span>Instagram</span>
                                     </a>
-                                    <a href="https://www.facebook.com/share/1DRLSxVsVr/" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
+                                    <a data-aos="flip-right" href="https://www.facebook.com/share/1DRLSxVsVr/" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
                                         <FaFacebookSquare size={30} className="fill-blue-600" />
                                         <span>Facebook</span>
                                     </a>
-                                    <a href="https://www.tiktok.com/@devmackmz" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
+                                    <a data-aos="flip-left" href="https://www.tiktok.com/@devmackmz" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
                                         <FaTiktok size={30} />
                                         <span>Tiktok</span>
                                     </a>
                                 </div>
                             </div>
-                            <div className="space-y-2 w-full mx-auto">
+                            <div data-aos="fade-right" className="space-y-2 w-full mx-auto">
                                 <h2 className="font-medium">Tecnologias</h2>
                                 <LogoLoop
                                     logos={imageLogos}
-                                    speed={100}
+                                    speed={20}
                                     direction="left"
                                     logoHeight={30}
                                     gap={40}

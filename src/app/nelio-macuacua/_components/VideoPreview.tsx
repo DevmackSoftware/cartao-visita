@@ -5,7 +5,6 @@ import { useState } from "react";
 
 export default function VideoPreview() {
     const [videoStarted, setVideoStarted] = useState(false);
-
     return (
         <div className="">
             {/* Imagem enquanto o vídeo não iniciou */}
@@ -29,7 +28,7 @@ export default function VideoPreview() {
                 playsInline
                 preload="auto"
                 onPlaying={() => setVideoStarted(true)}
-                className="w-full object-cover absolute top-0 left-0 h-full -z-10 opacity-50"
+                className="w-full object-cover absolute top-0 left-0 h-full  opacity-50"
             />
         </div>
     );

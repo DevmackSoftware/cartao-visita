@@ -28,6 +28,7 @@ END:VCARD
         <button
             onClick={handleSaveContact}
             className="flex justify-between items-center gap-4"
+            data-aos="zoom-in-down" data-aos-delay='850'
         >
             <BiSolidContact size={30} className="fill-zinc-400" />
             <div className="flex flex-col text-xs text-end">
