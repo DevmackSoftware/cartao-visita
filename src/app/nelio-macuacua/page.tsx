@@ -64,19 +64,19 @@ export default function NelioMacuacuaPage() {
                             <div className="space-y-2">
                                 <h2 className="font-medium">Conecte-se</h2>
                                 <div className="divide-x divide-y shadow-xl shadow-black/40 border grid grid-cols-2 divide-black border-black *:p-4">
-                                    <a data-aos="flip-left" href="https://wa.me/258833067953" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
+                                    <a data-aos="flip-left" data-aos-delay='900' href="https://wa.me/258833067953" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
                                         <BsWhatsapp size={30} className="fill-green-500" />
                                         <span>Whatsapp</span>
                                     </a>
-                                    <a data-aos="flip-right" href="https://www.instagram.com/devmack.software?igsi=MzZ3bmhlZm1yYjd2%2F" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
+                                    <a data-aos="flip-right" data-aos-delay='900' href="https://www.instagram.com/devmack.software?igsi=MzZ3bmhlZm1yYjd2%2F" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
                                         <BsInstagram size={30} className="fill-orange-500" />
                                         <span>Instagram</span>
                                     </a>
-                                    <a data-aos="flip-right" href="https://www.facebook.com/share/1DRLSxVsVr/" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
+                                    <a data-aos="flip-right" data-aos-delay='900' href="https://www.facebook.com/share/1DRLSxVsVr/" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
                                         <FaFacebookSquare size={30} className="fill-blue-600" />
                                         <span>Facebook</span>
                                     </a>
-                                    <a data-aos="flip-left" href="https://www.tiktok.com/@devmackmz" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
+                                    <a data-aos="flip-left" data-aos-delay='900' href="https://www.tiktok.com/@devmackmz" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center items-center gap-2">
                                         <FaTiktok size={30} />
                                         <span>Tiktok</span>
                                     </a>
