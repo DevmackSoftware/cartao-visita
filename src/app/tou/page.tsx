@@ -8,8 +8,8 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 export default function TouPage() {
     return (
-        <main className="bg-white text-black flex justify-center items-center min-h-screen w-full">
-            <div className="max-w-93.75 w-full pt-10 relative md:h-auto space-y-4">
+        <main className="bg-white text-black flex justify-center min-h-screen w-full">
+            <div className="max-w-93.75 w-full pt-10 relative md:h-auto space-y-4 flex flex-col">
                 <div>
                     <div data-aos="fade-right" className="rounded-r-full p-4 flex gap-4 bg-black text-white mr-4">
                         <div className="flex-1 ">
@@ -26,7 +26,7 @@ export default function TouPage() {
                         </div>
                     </div>
                 </div>
-                <div className="space-y-4 flex flex-col">
+                <div className="space-y-4 flex flex-col flex-1">
                     <div data-aos="fade-left" className=" *:text-sm text-white  *:bg-slate-300/10 *:grid *:text-center *:p-4 *:rounded-full *:aspect-square *:place-content-center rounded-l-full grid grid-cols-3 gap-4 p-4 bg-slate-900 ml-4">
                         <a href="#" className="">
                             <FcPhone size={30} />
