@@ -61,14 +61,14 @@ export default function DomingosMunguambePage() {
                             <span>Guardar</span>
                         </a>
                     </div>
-                    <div className=" *:bg-zinc-900/70  rounded-2xl *:active:outline-2 *:outline-blue-500 *:grid *:place-content-center *:aspect-square gap-4 *:rounded-full grid grid-cols-3 bg-black/50 backdrop-blur-2xl border-black p-4">
-                        <a data-aos="zoom-in" href="#">
+                    <div data-aos="flip-up" className=" *:bg-zinc-900/70  rounded-2xl *:active:outline-2 *:outline-blue-500 *:grid *:place-content-center *:aspect-square gap-4 *:rounded-full grid grid-cols-3 bg-black/50 backdrop-blur-2xl border-black p-4">
+                        <a href="#">
                             <MdEmail size={30} />
                         </a>
-                        <a data-aos="zoom-in" href="">
+                        <a href="">
                             <BsLinkedin size={30} className="fill-blue-600" />
                         </a>
-                        <a data-aos="zoom-in" href="">
+                        <a href="">
                             <BsWhatsapp size={30} className="fill-green-600" />
                         </a>
                     </div>
