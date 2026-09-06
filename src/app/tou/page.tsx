@@ -9,9 +9,9 @@ import { RiWhatsappFill } from "react-icons/ri";
 export default function TouPage() {
     return (
         <main className="bg-white text-black flex justify-center items-center min-h-screen w-full">
-            <div className="border max-w-93.75 w-full pt-10 relative md:h-auto space-y-4">
+            <div className="max-w-93.75 w-full pt-10 relative md:h-auto space-y-4">
                 <div>
-                    <div className="rounded-r-full p-4 flex gap-4 bg-black text-white mr-4">
+                    <div data-aos="fade-right" className="rounded-r-full p-4 flex gap-4 bg-black text-white mr-4">
                         <div className="flex-1 ">
                             <h1 className="text-2xl">Almeida Tou</h1>
                             <p className="uppercase font-semibold">Arquitecto</p>
@@ -27,7 +27,7 @@ export default function TouPage() {
                     </div>
                 </div>
                 <div className="space-y-4">
-                    <div className=" *:text-sm text-white  *:bg-slate-300/10 *:grid *:text-center *:p-4 *:rounded-full *:aspect-square *:place-content-center rounded-l-full grid grid-cols-3 gap-4 p-4 bg-slate-900 ml-4">
+                    <div data-aos="fade-left" className=" *:text-sm text-white  *:bg-slate-300/10 *:grid *:text-center *:p-4 *:rounded-full *:aspect-square *:place-content-center rounded-l-full grid grid-cols-3 gap-4 p-4 bg-slate-900 ml-4">
                         <a href="#" className="">
                             <FcPhone size={30} />
                             <span>Ligar</span>
@@ -41,7 +41,7 @@ export default function TouPage() {
                             <span>Email</span>
                         </a>
                     </div>
-                    <div className="aspect-square rounded-t-4xl space-y-4 p-4 bg-zinc-900 text-white">
+                    <div data-aos="fade-up" className="aspect-square rounded-t-4xl space-y-4 p-4 bg-zinc-900 text-white">
                         <div className="grid *:bg-black *:rounded-full  grid-cols-2 px-4 gap-4 max-w-1/2 mx-auto">
                             <a href="#" className="aspect-square grid place-content-center">
                                 <FaFacebook size={30} className="fill-blue-500 mx-auto" />
