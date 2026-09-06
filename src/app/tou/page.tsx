@@ -1,3 +1,4 @@
+import DriftWall from "@/components/DriftWall";
 import { AiFillInstagram, AiFillTikTok } from "react-icons/ai";
 import { BiPhone, BiPhoneCall } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
@@ -7,6 +8,13 @@ import { LiaLinkedin } from "react-icons/lia";
 import { RiWhatsappFill } from "react-icons/ri";
 
 export default function TouPage() {
+
+    const items = [
+        { image: 'https://picsum.photos/id/1015/600/400', title: 'Peaks', href: 'https://example.com/one' },
+        { image: 'https://picsum.photos/id/1025/600/400', title: 'Pup', href: 'https://example.com/two' },
+        { image: 'https://picsum.photos/id/1039/600/400', title: 'Falls', href: 'https://example.com/three' },
+    ];
+
     return (
         <main className="bg-white text-black flex justify-center min-h-screen w-full">
             <div className="max-w-93.75 w-full pt-10 relative md:h-auto space-y-4 flex flex-col">
@@ -42,11 +50,36 @@ export default function TouPage() {
                         </a>
                     </div>
                     <div data-aos="fade-up" className="flex-1 flex flex-col rounded-t-4xl space-y-4 p-4 bg-zinc-900 text-white">
-                        <div className="text-center flex-1 space-y-4">
+                        <div className="text-center space-y-4">
                             <h2 className="font-semibold">Sobre me</h2>
                             <p className="text-sm ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius commodi similique illum, libero ipsam esse quam enim quo corrupti quisquam explicabo! Et sit, ratione perferendis unde at dolorem eaque deserunt.</p>
                         </div>
-                        <div className="grid *:bg-black *:rounded-full  grid-cols-5 px-4 gap-2 mb-10">
+                        <div className="flex-1">
+                            <DriftWall
+                                items={items}
+                                columns={5}
+                                tileWidth={150}
+                                tileHeight={132}
+                                gap={18}
+                                tilt={16}
+                                turn={-20}
+                                perspective={1200}
+                                depth={120}
+                                speed={20}
+                                direction="up"
+                                variance={0.45}
+                                parallax={0.6}
+                                lift={64}
+                                fade={0.6}
+                                dim={0.55}
+                                overlayColor="#060010"
+                                radius={14}
+                                roll={0}
+                                pauseOnHover={false}
+                                grayscale={false}
+                            />
+                        </div>
+                        <div className="grid *:bg-black *:rounded-full  grid-cols-5 px-4 gap-2 ">
                             <a href="#" className="aspect-square grid place-content-center">
                                 <FaFacebook size={30} className="fill-blue-500 mx-auto" />
                             </a>
