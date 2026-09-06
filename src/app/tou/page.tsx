@@ -42,15 +42,17 @@ export default function TouPage() {
                         </a>
                     </div>
                     <div data-aos="fade-up" className="flex-1 flex flex-col rounded-t-4xl space-y-4 p-4 bg-zinc-900 text-white">
-                        <div className="grid *:bg-black *:rounded-full  grid-cols-2 px-4 gap-4 max-w-1/2 mx-auto">
+                        <div className="text-center flex-1 space-y-4">
+                            <h2 className="font-semibold">Sobre me</h2>
+                            <p className="text-sm ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius commodi similique illum, libero ipsam esse quam enim quo corrupti quisquam explicabo! Et sit, ratione perferendis unde at dolorem eaque deserunt.</p>
+                        </div>
+                        <div className="grid *:bg-black *:rounded-full  grid-cols-5 px-4 gap-2 mb-10">
                             <a href="#" className="aspect-square grid place-content-center">
                                 <FaFacebook size={30} className="fill-blue-500 mx-auto" />
                             </a>
                             <a href="#" className="aspect-square grid place-content-center">
                                 <AiFillInstagram size={30} className="fill-orange-600 mx-auto" />
                             </a>
-                        </div>
-                        <div className="grid *:bg-black *:rounded-full grid-cols-3 max-w-3/4 mx-auto px-4 gap-4">
                             <a href="#" className="  rounded-full aspect-square grid place-content-center">
                                 <FaLinkedin size={30} className="fill-blue-500 mx-auto" />
                             </a>
@@ -60,10 +62,6 @@ export default function TouPage() {
                             <a href="#" className="  rounded-full aspect-square grid place-content-center">
                                 <RiWhatsappFill size={30} className="fill-green-500 mx-auto" />
                             </a>
-                        </div>
-                        <div className="text-center flex-1">
-                            <h2 className="font-semibold">Sobre me</h2>
-                            <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius commodi similique illum, libero ipsam esse quam enim quo corrupti quisquam explicabo! Et sit, ratione perferendis unde at dolorem eaque deserunt.</p>
                         </div>
                         <div className="text-center">
                             <small>&copy; 2023 <a href="https://www.devmack.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">DevMack</a>. All rights reserved.</small>
