@@ -82,7 +82,7 @@ export default function NelioMacuacuaPage() {
                                     </a>
                                 </div>
                             </div>
-                            <div data-aos="fade-right" className="space-y-2 w-full mx-auto">
+                            <div data-aos="fade-right" data-aos-delay='900' className="space-y-2 w-full mx-auto">
                                 <h2 className="font-medium">Tecnologias</h2>
                                 <LogoLoop
                                     logos={imageLogos}
