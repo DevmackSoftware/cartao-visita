@@ -26,7 +26,7 @@ export default function TouPage() {
                         </div>
                     </div>
                 </div>
-                <div className="space-y-4">
+                <div className="space-y-4 flex flex-col">
                     <div data-aos="fade-left" className=" *:text-sm text-white  *:bg-slate-300/10 *:grid *:text-center *:p-4 *:rounded-full *:aspect-square *:place-content-center rounded-l-full grid grid-cols-3 gap-4 p-4 bg-slate-900 ml-4">
                         <a href="#" className="">
                             <FcPhone size={30} />
@@ -41,7 +41,7 @@ export default function TouPage() {
                             <span>Email</span>
                         </a>
                     </div>
-                    <div data-aos="fade-up" className="aspect-square rounded-t-4xl space-y-4 p-4 bg-zinc-900 text-white">
+                    <div data-aos="fade-up" className="flex-1 flex flex-col rounded-t-4xl space-y-4 p-4 bg-zinc-900 text-white">
                         <div className="grid *:bg-black *:rounded-full  grid-cols-2 px-4 gap-4 max-w-1/2 mx-auto">
                             <a href="#" className="aspect-square grid place-content-center">
                                 <FaFacebook size={30} className="fill-blue-500 mx-auto" />
@@ -61,7 +61,7 @@ export default function TouPage() {
                                 <RiWhatsappFill size={30} className="fill-green-500 mx-auto" />
                             </a>
                         </div>
-                        <div className="text-center">
+                        <div className="text-center flex-1">
                             <h2 className="font-semibold">Sobre me</h2>
                             <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius commodi similique illum, libero ipsam esse quam enim quo corrupti quisquam explicabo! Et sit, ratione perferendis unde at dolorem eaque deserunt.</p>
                         </div>
