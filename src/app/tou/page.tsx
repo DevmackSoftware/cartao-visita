@@ -7,9 +7,9 @@ import { RiWhatsappFill } from "react-icons/ri";
 export default function TouPage() {
 
     const items = [
-        { image: 'https://picsum.photos/id/1015/600/400', title: 'Peaks', href: 'https://example.com/one' },
-        { image: 'https://picsum.photos/id/1025/600/400', title: 'Pup', href: 'https://example.com/two' },
-        { image: 'https://picsum.photos/id/1039/600/400', title: 'Falls', href: 'https://example.com/three' },
+        { image: 'https://picsum.photos/id/1015/600/400', title: 'Peaks', href: '#' },
+        { image: 'https://picsum.photos/id/1025/600/400', title: 'Pup', href: '#' },
+        { image: 'https://picsum.photos/id/1039/600/400', title: 'Falls', href: '#' },
     ];
 
     return (
