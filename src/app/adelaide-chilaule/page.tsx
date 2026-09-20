@@ -8,7 +8,7 @@ import { LiaLinkedin } from "react-icons/lia"
 export default function AdelaideChilaulePage() {
     return (
         <main className="flex flex-col justify-center items-center min-h-screen w-full bg-black text-white">
-            <div className="max-w-93.75 w-full p-4 relative md:h-auto flex-1 flex justify-center items-center">
+            <div className="max-w-93.75 w-full p-4 relative md:h-auto flex-1 flex justify-center ">
                 <VideoPreview />
                 <div data-aos="flip-left" className="z-10 flex flex-col border rounded-2xl border-zinc-400/50 bg-zinc-900/30 backdrop-blur-sm p-4 h-full shadow-2xl shadow-black space-y-4">
                     <div className="space-y-2">
