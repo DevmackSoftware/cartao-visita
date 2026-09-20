@@ -8,9 +8,9 @@ import { LiaLinkedin } from "react-icons/lia"
 export default function AdelaideChilaulePage() {
     return (
         <main className="flex flex-col justify-center items-center min-h-screen w-full bg-black text-white">
-            <div className="max-w-93.75  w-full p-4 relative md:h-auto flex-1 flex justify-center items-center">
+            <div className="max-w-93.75 w-full p-4 relative md:h-auto flex-1 flex justify-center items-center">
                 <VideoPreview />
-                <div className=" z-10 flex flex-col border rounded-2xl border-zinc-400/50 bg-zinc-900/30 backdrop-blur-sm p-4 h-full shadow-2xl shadow-black space-y-4">
+                <div className="z-10 flex flex-col border rounded-2xl border-zinc-400/50 bg-zinc-900/30 backdrop-blur-sm p-4 h-full shadow-2xl shadow-black space-y-4">
                     <div className="space-y-2">
                         <div className="size-30 border-4 rounded-full border-dashed border-green-600 mx-auto">
                             <img
@@ -86,7 +86,7 @@ export default function AdelaideChilaulePage() {
                         </a>
                     </div>
                     <div className="text-center">
-                        <small>&copy; 2023 <a href="https://www.devmack.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">DevMack</a>. All rights reserved.</small>
+                        <small>&copy; 2023 <a href="https://www.devmack.com" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">DevMack</a>. All rights reserved.</small>
                     </div>
                 </div>
             </div>
