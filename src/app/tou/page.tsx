@@ -36,11 +36,11 @@ export default function TouPage() {
                             </div>
                         </div>
                         <div className="border-4 size-30 aspect-square rounded-full relative">
-                            <img
+                            {/* <img
                                 className="object-cover rounded-full"
                                 src="./profile.JPG"
                                 alt="Profile image"
-                            />
+                            /> */}
                         </div>
                     </div>
                 </div>
