@@ -10,14 +10,14 @@ export default function AdelaideChilaulePage() {
         <main className="flex flex-col justify-center items-center min-h-screen w-full bg-black text-white">
             <div className="max-w-93.75 w-full p-4 relative md:h-auto flex-1 flex justify-center items-center">
                 <VideoPreview />
-                <div className="z-10 flex flex-col border rounded-2xl border-zinc-400/50 bg-zinc-900/30 backdrop-blur-sm p-4 h-full shadow-2xl shadow-black space-y-4">
+                <div data-aos="flip-left" className="z-10 flex flex-col border rounded-2xl border-zinc-400/50 bg-zinc-900/30 backdrop-blur-sm p-4 h-full shadow-2xl shadow-black space-y-4">
                     <div className="space-y-2">
                         <div className="size-30 border-4 rounded-full border-dashed border-green-600 mx-auto">
-                            <img
+                            {/* <img
                                 className="object-cover rounded-full"
                                 src="./profile.JPG"
                                 alt="Profile image"
-                            />
+                            /> */}
                         </div>
                         <div className="text-center">
                             <h1 className="font-semibold">Adelaide Chilaule</h1>
