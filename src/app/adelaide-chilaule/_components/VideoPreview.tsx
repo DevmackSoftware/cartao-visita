@@ -7,7 +7,7 @@ export default function VideoPreview() {
     const [videoStarted, setVideoStarted] = useState(false);
 
     return (
-        <div className="">
+        <div className="z-10">
             {/* Imagem enquanto o vídeo não iniciou */}
             {!videoStarted && (
                 <Image

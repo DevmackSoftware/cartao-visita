@@ -7,12 +7,12 @@ import { LiaLinkedin } from "react-icons/lia"
 
 export default function AdelaideChilaulePage() {
     return (
-        <main className="flex justify-center items-center min-h-screen w-full">
-            <div className="max-w-[375px] w-full p-4 relative md:h-auto">
+        <main className="flex justify-center items-center min-h-screen w-full bg-black text-white">
+            <div className="max-w-93.75 z-0 w-full p-4 relative md:h-auto">
                 <VideoPreview />
-                <div className="border rounded-2xl border-zinc-400/50 bg-zinc-900/30 backdrop-blur-sm p-4 h-full shadow-2xl shadow-black space-y-4">
+                <div className="flex flex-col border rounded-2xl border-zinc-400/50 bg-zinc-900/30 backdrop-blur-sm p-4 h-full shadow-2xl shadow-black space-y-4">
                     <div className="space-y-2">
-                        <div className="size-30 border-4 rounded-full border-dashed border-green-500 mx-auto">
+                        <div className="size-30 border-4 rounded-full border-dashed border-green-600 mx-auto">
                             <img
                                 className="object-cover rounded-full"
                                 src="./profile.JPG"
@@ -20,9 +20,12 @@ export default function AdelaideChilaulePage() {
                             />
                         </div>
                         <div className="text-center">
-                            <h1>Adelaide Chilaule</h1>
+                            <h1 className="font-semibold">Adelaide Chilaule</h1>
                             <p className="text-sm font-bold uppercase text-zinc-500">Arquitecta</p>
                         </div>
+                    </div>
+                    <div className="flex-1">
+
                     </div>
                     <div className="space-y-2">
                         <a href="" className="border-2 border-green-400/20 p-4 bg-green-400/20 backdrop-blur-2xl rounded-2xl flex justify-between items-center gap-2">
