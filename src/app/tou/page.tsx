@@ -1,10 +1,7 @@
 import DriftWall from "@/components/DriftWall";
 import { AiFillInstagram, AiFillTikTok } from "react-icons/ai";
-import { BiPhone, BiPhoneCall } from "react-icons/bi";
-import { BsInstagram } from "react-icons/bs";
-import { FaFacebook, FaInstagram, FaLinkedin, FaMailBulk } from "react-icons/fa";
-import { FcAddressBook, FcContacts, FcPhone } from "react-icons/fc";
-import { LiaLinkedin } from "react-icons/lia";
+import { FaFacebook, FaLinkedin, FaMailBulk } from "react-icons/fa";
+import { FcContacts, FcPhone } from "react-icons/fc";
 import { RiWhatsappFill } from "react-icons/ri";
 
 export default function TouPage() {
@@ -20,10 +17,23 @@ export default function TouPage() {
             <div className="max-w-93.75 w-full pt-10 relative md:h-auto space-y-4 flex flex-col">
                 <div>
                     <div data-aos="fade-right" className="rounded-r-full p-4 flex gap-4 bg-black text-white mr-4">
-                        <div className="flex-1 ">
-                            <h1 className="text-2xl">Almeida Tou</h1>
-                            <p className="uppercase font-semibold">Arquitecto</p>
-                            <p className="text-sm">Especialista em </p>
+                        <div className="flex-1 flex flex-col">
+                            <div>
+                                <h1 className="text-2xl">Almeida Tou</h1>
+                                <p className="uppercase font-semibold">Arquitecto</p>
+                                <p className="text-sm">Especialista em:</p>
+                            </div>
+                            <div className="mt-2 *:bg-zinc-800 flex-1 grid grid-cols-3 gap-2">
+                                <div className="">
+
+                                </div>
+                                <div className=" ">
+
+                                </div>
+                                <div className="rounded-r-full">
+
+                                </div>
+                            </div>
                         </div>
                         <div className="border-4 size-30 aspect-square rounded-full relative">
                             <img
