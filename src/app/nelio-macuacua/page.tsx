@@ -29,7 +29,7 @@ export default function NelioMacuacuaPage() {
                         <div data-aos="zoom-in" data-aos-delay='800' className="size-30 border relative border-zinc-400/50 mx-auto shadow-2xl shadow-black space-y-4">
                             <img
                                 className="object-cover"
-                                src="./profile.JPG"
+                                src="./profile.jpeg"
                                 alt="Profile image"
                             />
                         </div>
